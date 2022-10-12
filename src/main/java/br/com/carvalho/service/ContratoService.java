@@ -26,7 +26,7 @@ public class ContratoService implements IContratoService {
 	@Override
 	public String buscar() {
 		contratoDao.buscar();
-		return "Sucesso ao buscar no DB";
+		return "Sucesso ao buscar dados no DB";
 	}
 
 	@Override

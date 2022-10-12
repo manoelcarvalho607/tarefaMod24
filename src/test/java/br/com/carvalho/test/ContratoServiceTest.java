@@ -45,7 +45,7 @@ public class ContratoServiceTest {
 		IContratoDao dao = new ContratoDaoMock();
 		IContratoService service = new ContratoService(dao);
 		String retorno = service.buscar();
-		Assert.assertEquals("Sucesso ao buscar no DB", retorno);
+		Assert.assertEquals("Sucesso ao buscar dados no DB", retorno);
 		
 	}
 	
@@ -55,7 +55,7 @@ public class ContratoServiceTest {
 		
 		IContratoService service = new ContratoService(dao);
 		String retorno = service.salvar();
-		Assert.assertEquals("Sucesso ao salvar no DB", retorno);
+		Assert.assertEquals("Sucesso ao buscar dados no DB", retorno);
 	}
 	
 	@Test
@@ -73,7 +73,7 @@ public class ContratoServiceTest {
 		
 		IContratoService service = new ContratoService(dao);
 		String retorno = service.alterar();
-		Assert.assertEquals("Sucesso ao salvar no DB", retorno);
+		Assert.assertEquals("Sucesso ao alterar dados no DB", retorno);
 	}
 	
 	

@@ -17,7 +17,7 @@ public class ContratoDao implements IContratoDao {
 
 	@Override
 	public void buscar() {
-		throw new UnsupportedOperationException("Erro ao buscar no banco de dados!");
+		throw new UnsupportedOperationException("Erro ao buscar dados no banco de dados!");
 		
 	}
 
